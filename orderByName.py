@@ -6,4 +6,5 @@ def _by_name(x):
 L = [('Bob', 75), ('Adam', 92), ('Bart', 66), ('Lisa', 88)]
 
 orderTuple = sorted(L, key=_by_name)
+print(_by_name)
 print(orderTuple)
