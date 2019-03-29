@@ -30,7 +30,7 @@ for i in range(10):
 
 print('try get result...')
 
-for i in range(10):
+for i in range(10): 
     r = results.get(timeout=20)
     print('result %s' % r)
 
